@@ -1,0 +1,14 @@
+2013-12-02 16:56:00: -- FolderTransfer_Web: ANALYSIS started by On File Change Incremental on 'MING-PC' (GoodSync 9.5.5.5)
+2013-12-02 16:56:00: D:\工作项目\BackupCow_Web\FolderTransfer =PropDels=> C:\Hao.Backup\FolderTransfer_Web, UberUnlockedUpload
+2013-12-02 16:56:00: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\Orders.aspx
+2013-12-02 16:56:00: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\ve-A6BA.tmp
+2013-12-02 16:56:00: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\Orders.aspx~RF1a5a6b2.TMP
+2013-12-02 16:56:00: Changes: 1, Conflicts: , CopyTime: , CopyState: /, Errors: 
+2013-12-02 16:56:00: Left to Right: Copy File: 1 
+2013-12-02 16:56:00: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2013-12-02 16:56:00: == FolderTransfer_Web: SYNC started by On File Change Incremental on 'MING-PC'
+2013-12-02 16:56:00: D:\工作项目\BackupCow_Web\FolderTransfer =PropDels=> C:\Hao.Backup\FolderTransfer_Web, UberUnlockedUpload
+2013-12-02 16:56:00: Copy Over 'D:\工作项目\BackupCow_Web\FolderTransfer\Orders.aspx' -> 'C:\Hao.Backup\FolderTransfer_Web\Orders.aspx'
+2013-12-02 16:56:00: Items Synced OK: 1, Errors: 
+2013-12-02 16:56:00: == Sync Completed. Time: 00:00:00, Speed: 
+2013-12-02 16:56:00: 

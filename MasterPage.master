@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Backup Cow System</title>
+    <meta content="Backup Cow can transform your networked computers into a private cloud that acts as your private dropbox. You can backup, synchronize, encrypt and share your files across LAN or Internet/Intranet. Any network users can choose to be a cloud storage contributor or consumer or both."
+        name="description" />
+    <meta name="keywords" content="backup spoftware,cloud backup,backup solutions,backup cloud storage,private cloud,private cloud storage, cloud backup software,build private cloud,cloud backup solution,cloud file storage,network backup solution,back up your computer,back up my files,back up my computor,back up your files,backup,restore,synchronize,synchronization,sync,synchronize files, file synchronization,private dropbox" />
+    <link href="backupcow.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/style1.css" type="text/css" />
+    <link rel="stylesheet" href="css/menu_top.css" type="text/css" />
+    <link rel="stylesheet" href="css/menu_bottom.css" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <!--#include file="header.asp"-->
+        <form id="form1" runat="server">
+            <div id="mainMenuWrapper">
+                <table style="margin-top: 5px">
+                    <tr>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 0px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="download.aspx" style="color: Gray">Downloading Statistic</a>
+                            </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 0px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="Orders.aspx" style="color: Gray">Orders List</a>
+                            </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="OtherPage.aspx" style="color: Gray">Other Page</a>
+                            </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="Trial.aspx" style="color: Gray">Trial List</a>
+                            </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="AppUninstallList.aspx" style="color: Gray">Uninstall List</a> </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="AccountList.aspx" style="color: Gray">Group List
+                                    </a> </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 0px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="UseList.aspx" style="color: Gray">Use List
+                                    </a> </span>
+                        </td>
+                        <td style="height: 16px">
+                            <span style="padding: 5px 20px 0px 20px">
+                                <img src="images/Nav.jpg" />&nbsp;<a href="Logout.aspx" style="color: Gray">Logout</a>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div class="clr">
+            </div>
+            <div id="containerHelper">
+            </div>
+            <!-- FOOTER -->
+            <asp:SiteMapDataSource ID="SiteMapDS" runat="server" ShowStartingNode="False" />
+        </form>
+    </div>
+    <!--#include file="footer.asp"-->
+
+    <script type="text/javascript">
+function fixPng() { 
+  var arVersion = navigator.appVersion.split("MSIE") 
+  var version = parseFloat(arVersion[1]) 
+ 
+  if ((version >= 5.5 && version < 7.0) && (document.body.filters)) { 
+      for(var j=0; j<document.images.length; j++)
+       {
+          var img = document.images[j]
+          var imgName = img.src.toUpperCase()
+          if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+          {
+             var imgID = (img.id) ? "id='" + img.id + "' " : ""
+             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+             var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+             var imgStyle = "display:inline-block;" + img.style.cssText
+             if (img.align == "left") imgStyle = "float:left;" + imgStyle
+             if (img.align == "right") imgStyle = "float:right;" + imgStyle
+             if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+             var strNewHTML = "<span " + imgID + imgClass + imgTitle
+             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+             + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"
+             img.outerHTML = strNewHTML
+             j = j-1
+			}
+		}		
+	}
+} 
+fixPng();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+2013-12-06 10:07:08: -- FolderTransfer_Web: ANALYSIS started by On File Change Incremental on 'MING-PC' (GoodSync 9.5.5.5)
+2013-12-06 10:07:08: D:\工作项目\BackupCow_Web\FolderTransfer =PropDels=> C:\Hao.Backup\FolderTransfer_Web, UberUnlockedUpload
+2013-12-06 10:07:08: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\ve-A050.tmp
+2013-12-06 10:07:08: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\ve-B602.tmp
+2013-12-06 10:07:08: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\TrialAnalyze.aspx.cs
+2013-12-06 10:07:08: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\TrialAnalyze.aspx.cs~RF30a054.TMP
+2013-12-06 10:07:08: Change in: D:\工作项目\BackupCow_Web\FolderTransfer\TrialAnalyze.aspx.cs~RF30b606.TMP
+2013-12-06 10:07:08: Changes: 1, Conflicts: , CopyTime: , CopyState: /, Errors: 
+2013-12-06 10:07:08: Left to Right: Copy File: 1 
+2013-12-06 10:07:08: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2013-12-06 10:07:08: == FolderTransfer_Web: SYNC started by On File Change Incremental on 'MING-PC'
+2013-12-06 10:07:08: D:\工作项目\BackupCow_Web\FolderTransfer =PropDels=> C:\Hao.Backup\FolderTransfer_Web, UberUnlockedUpload
+2013-12-06 10:07:08: Copy Over 'D:\工作项目\BackupCow_Web\FolderTransfer\TrialAnalyze.aspx.cs' -> 'C:\Hao.Backup\FolderTransfer_Web\TrialAnalyze.aspx.cs'
+2013-12-06 10:07:08: Items Synced OK: 1, Errors: 
+2013-12-06 10:07:08: == Sync Completed. Time: 00:00:00, Speed: 
+2013-12-06 10:07:08: 

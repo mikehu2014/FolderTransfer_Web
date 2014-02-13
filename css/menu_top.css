@@ -1,0 +1,28 @@
+#nav_top 
+{
+}
+
+#nav_top a {
+	text-decoration:none;
+	color:#c0bfbf;
+	font-weight:normal;
+	font-size:10px;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+	padding: 11px 23px 0px 10px;
+	height: 31px;	
+}
+
+#nav_top li {
+	display: inline;	
+}
+
+#nav_top li span {
+	vertical-align: top;
+	padding:5px 0px 0px 3px;
+}
+
+#nav_top li.active a {
+	background-color: #000000;
+}
